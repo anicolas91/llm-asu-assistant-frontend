@@ -32,8 +32,13 @@ const handleSubmit = async () => {
   }
 };
 const handleClear = () => {
-  questionRef.value = "";
-  resStorage.value = [];
+  if (
+    import.meta.client &&
+    window.confirm("Are you sure you want to clear chat history?")
+  ) {
+    questionRef.value = "";
+    resStorage.value = [];
+  }
 };
 </script>
 
