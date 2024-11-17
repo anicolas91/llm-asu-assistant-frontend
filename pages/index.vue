@@ -24,7 +24,7 @@ const handleFarts = async () => {
 </script>
 
 <template>
-  <div class="relative bg-dark-2 z-[-10]">
+  <div class="relative bg-dark-2">
     <div
       class="min-h-[calc(100vh-116px)] lg:min-h-[calc(100vh-124px)] px-xs py-sm lg:px-sm lg:py-lg"
     >
